@@ -1,15 +1,10 @@
 
 
-var students = [
-  { id: 1, name: "bruce",    age: 40 },
-  { id: 2, name: "zoidberg", age: 22 },
-  { id: 3, name: "alex",     age: 22 },
-  { id: 4, name: "alex",     age: 30 }
-];
+var students = [746327,3424,3424344,434,43,5];
 
 module.exports = students.sort(function(a, b) {
 
-  return a.name > b.name;
+  return a - b;
 
 });
 
